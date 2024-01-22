@@ -1,0 +1,74 @@
+$widtht-item: calc(1/5*100% - 10px);
+$height-item: 420px;
+$height-promotion:30px;
+$boder-radius-item : 10px;
+.item-container { 
+    cursor: pointer;
+    background-color: white;
+    border-radius: $boder-radius-item;
+    text-align: center;
+    margin: 0px 5px 10px 5px;
+    width: $widtht-item;
+    height: $height-item;
+        .promotion-number { 
+            color: white;
+            height: $height-promotion;
+            line-height: $height-promotion;
+            border-radius: 0px 10px 0px 20px;
+            background-color: red;
+            width: 60px;
+            margin-left: 100%;
+            transform: translateX(-100%);
+        }
+    
+    .price-container { 
+        margin-top: 15px;
+        .price {
+            opacity: 0.5;
+            font-size: 15px;
+            margin-left: 5px;
+            text-decoration: line-through
+        }
+        .price-promotion { 
+            color: red;
+            font-weight: 700;
+            font-size: 20px;
+        }
+    }
+    .info {
+        .name-phone {
+            margin: auto;
+            height: 30px;
+            width: 80%;
+        }
+    }
+    .review { 
+       margin-top: 10px;
+    }
+    .product-remaining { 
+        margin-top: 20px;
+        h4 {
+            color: white;
+            padding: 5px;
+            border-radius: 10px;
+            display: inline;
+            background: red;
+        }
+        .text-km {
+            width: 80%;
+            margin: auto;
+            font-size: 15px;
+        }
+        h5 {
+            color: red;
+            font-size: 15px;
+        }
+    }
+    img {
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    }
+}
+.item-container:hover > .info{ 
+        color: #2F4F4F;
+}

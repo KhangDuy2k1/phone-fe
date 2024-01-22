@@ -1,0 +1,100 @@
+.option-conainer { 
+    margin: 15px 0px 0px 15px;
+    flex: 2;
+    .price-container{
+        height: 40px;
+
+        .price-discount {
+            color: red;
+            line-height: 40px;
+            font-size: 30px;
+        }
+        .price { 
+            text-decoration: line-through;
+            margin-left: 10px;
+            font-size: 20px;
+        }
+        .vat {
+            margin-left: 20px;
+            font-size: 15px;
+            opacity: 0.6;
+        }
+    }
+    .free-shipping { 
+
+        height: 40px;
+        background-color: aquamarine;
+    }
+    .config { 
+        margin-top: 40px;
+        .color, .store{ 
+            span {
+                font-weight: 600;
+            }
+            .list-store {
+                display: flex;
+            }
+        }
+       
+    }
+    .delivery-truck {
+        display: flex;
+        align-items: center;
+        .icon {
+            margin-right: 10px;
+            font-size: 30px;
+        }
+        margin-top: 10px; 
+        font-size: 15px;
+    }
+    .phone-remaining {
+        margin-top: 5px; 
+        font-size: 15px;
+    }
+    .btn-order-container { 
+        margin-top: 20px;
+            .quantity-container { 
+                height: 40px;
+                display: flex;
+                align-items: center;
+                .btn-decrease, .btn-increase {
+                    cursor: pointer;
+                    height: 100%;
+                    width: 30px;
+                    font-size: 20px;
+                }
+                .input-quantity { 
+                    font-size: 20px;
+                    width: 60px;
+                    outline: none;
+                    text-align: center;
+                    height: 100%;
+                }
+            }
+            .btn-add-cart {
+            margin-top: 10px;
+            border-radius: 5px;
+            padding: 20px;
+            border: none;
+            cursor: pointer;
+            color: white;
+            height: 40px;
+            background-color: #FF7F50;
+            display: flex;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 15px;
+            .icon {
+                margin-right: 10px;
+                font-size: 20px;
+            }
+            }
+            .btn-add-cart:hover {
+                // background-color:#FFA07A ;
+                background-color:#FF6347 ;
+
+            }
+        
+    }
+}

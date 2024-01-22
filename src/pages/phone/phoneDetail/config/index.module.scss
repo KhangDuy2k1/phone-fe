@@ -1,0 +1,35 @@
+.config-info-container {
+    flex : 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .list-config { 
+        list-style: none;
+       
+        .config-item { 
+            margin-top: 30px;
+            span {
+                font-style: italic;
+                margin-left: 10px;
+            }
+            .span1, .span3, .span5 {
+                background-color: #FFDEAD;
+            }
+
+        }
+    }
+    .btn-info-detail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        width: 200px;
+        height: 40px;
+        margin: auto;
+        border: 1px blue solid;
+        color: blue;
+        .icon {
+            font-size: 20px;
+        }
+    }
+}

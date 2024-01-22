@@ -1,0 +1,57 @@
+.popover-container { 
+    display: flex;
+    animation: slideIn 0.3s linear;
+    width: 1200px;
+    height: 300px;
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    .name-phone { 
+        flex: 3;
+        .list-name-phone-container { 
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            .name-phone-item {
+                cursor: pointer;
+                border-radius: 10px;
+                background-color: #FFF8DC;
+                width: 150px;
+                text-align: center;
+                line-height: 30px;
+                height: 30px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                margin: 5px;
+            }
+            .name-phone-item:hover { 
+                background-color: bisque;
+            }
+        }
+    }
+    .img { 
+        flex:1;
+        width: 500px;
+        height: 200px;
+    }
+}   
+.sticky { 
+    display: none;
+}
+@keyframes slideIn {
+    from {
+      transform: translateY(50px);
+      transform: translateX(-50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(50px);
+      transform: translateX(-50%);
+      opacity: 1;
+    }
+  }

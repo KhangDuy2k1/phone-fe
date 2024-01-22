@@ -1,0 +1,33 @@
+$height-category : 45px;
+$width-content: 1200px;
+$width-category: 110px;
+.category-container {
+   height: $height-category; 
+   width: 100%;
+   .category-content { 
+      height: 100%;
+      width: $width-content;
+      margin: auto;
+      .list-category-container {
+         background-color: #DCDCDC;
+         height: 100%;
+         justify-content: space-between; 
+         align-items: center;
+         display: flex;
+         list-style: none;
+         .category-item {
+            color: black;
+            opacity: 0.6;
+            cursor: pointer;
+            width: $width-category;
+            text-align: center;
+            height: 100%;
+            line-height: $height-category;
+         }
+         .category-item:hover {
+            opacity: 1;
+         }
+      }
+   }
+}
+

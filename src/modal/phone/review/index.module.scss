@@ -1,0 +1,26 @@
+.rate-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.rate {
+    font-size: 40px;
+}
+.btn-review {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 100px;
+    margin-left: 100%;
+    transform: translateX(-100%);
+    height: 30px;
+}
+.rate-status {
+    color: cadetblue    ;
+    font-size: 20px;
+    text-align: center;
+}

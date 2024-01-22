@@ -1,0 +1,24 @@
+.image-container {
+    flex : 1;
+    margin-right: 15px;
+    .main-image { 
+            width: 70%;
+            margin-left: 50%;
+            transform: translateX(-50%);
+    }
+    .list-image-container {
+           width: 100%;
+            display: flex;
+            justify-content: space-around;
+            width: 90%;
+            height: 80px;
+            margin: auto;
+            .image-item {
+                cursor: pointer;
+                width: 100%;
+                padding: 10px;
+                background-color: azure;
+                border: 1px solid #A9A9A9;
+            }
+    }
+}

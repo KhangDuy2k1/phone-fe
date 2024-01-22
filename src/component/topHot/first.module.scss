@@ -1,0 +1,25 @@
+.first-container {
+    text-align: center;
+    font-weight: 600;
+    line-height: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-right: 10px;
+        background-color: red;
+    }
+}
+
+.shake {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: rgba(255, 99, 71, 0.5);
+    background-color: aqua;
+}

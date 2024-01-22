@@ -1,0 +1,17 @@
+.bestsell-container {
+    background-color: #778899;
+    margin-top: 30px;
+    .title-bestsell-phone {
+        display: inline;
+        padding: 15px;
+        color: white;
+        background-color: #00483d;
+    }
+    .list-phone-container {
+        border-radius: 10px;
+        height: 1000px;
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,35 @@
+.cart-container { 
+    margin-top: 20px;
+    min-height: 800px;
+    // .cart-info-container {
+        table {
+            width: 100%;
+            text-align: center;
+            .column-phone {
+                width: 30%;
+                height: 40px;
+            }
+            .column-quantity {
+                width: 20%;
+            }
+            .column-price {
+                width: 10%;
+            }
+            .column-total {
+                width: 10%;
+            }
+            .column-delete {
+                width: 10%;
+            }
+            .column-select {
+                width: 10%;
+            }
+        }
+        .total-order-container{
+            margin-left: 80%;
+            transform: translateX(-50%);
+            margin-top: 20px;
+        }
+    // }
+   
+}

@@ -1,0 +1,18 @@
+.news-container {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    .list-news-container { 
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        .news-item { 
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border: 1px solid #E6E6FA;
+            padding: 10px;
+            border-radius: 10px;
+            flex: 1;
+            margin: 0 5px 0 5px;
+            height: 300px;
+        }
+    }
+}

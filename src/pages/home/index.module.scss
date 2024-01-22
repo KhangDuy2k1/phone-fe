@@ -1,0 +1,45 @@
+.container {
+    .slide {
+        background-image: url();
+    }
+    .container-cg {
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+
+        h1 { 
+           margin-left: 50%;
+           transform: translateX(-50%);
+        }
+    }
+    .best-sell {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        .container-product {
+            // background-color: aqua;
+            margin-top: 20px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    .product-new {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .news {
+        text-align: center;
+    }
+    .category-title:hover, .best-sell-title:hover, .product-new-title:hover {
+        color: #0000CD;
+    }
+   
+}

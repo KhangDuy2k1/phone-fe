@@ -1,0 +1,65 @@
+$color: white;  
+$backgroundColorBtnSocial: #0000FF;
+.btn-container { 
+    margin-top: 20px;
+    .text-question-account {
+      margin: 10px;
+      text-align: end;
+    }
+    .btn { 
+        width: 150px;
+        height: 40px;
+        cursor: pointer;
+        border: none
+    }
+    .btn-login { 
+       background-color: #DC143C;
+       width: 100%;
+       color: $color;
+      }
+      .btn-register {
+        background-color: #808080;
+        color: $color;
+      }
+}
+.wrap-options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+   span { 
+         cursor: pointer;
+         color: #F08080;
+      }
+}
+.login-social-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  
+  .btn-social { 
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    width: 40;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+    p {
+      margin-left: 5px;
+    }
+  }
+  .btn-login-facebook {
+    background-color: #00008B;
+  }
+  .btn-login-facebook:hover { 
+     background-color: $backgroundColorBtnSocial;
+  }
+  .btn-login-google { 
+    background-color: #6495ED;
+  }
+  .btn-login-google:hover { 
+    background-color: $backgroundColorBtnSocial;
+ }
+}
